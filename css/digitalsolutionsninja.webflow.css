@@ -5029,6 +5029,20 @@ blockquote {
     display: flex;
     position: static;
   }
+
+  .blog-page-main-image {
+    height: auto; /* Allow height to adjust based on aspect ratio */
+    object-fit: contain; /* Show the whole image without cropping */
+    max-height: 60vh; /* Optional: Prevent excessively tall images */
+    width: 100%; /* Ensure it spans the container width */
+  }
+
+  /* Optional: Hide the background image if it interferes */
+  /* 
+  .blog-page-main-image-background {
+      display: none;
+  }
+  */
 }
 
 @media screen and (max-width: 479px) {
@@ -5503,6 +5517,21 @@ blockquote {
   .div-block-1217 {
     background-image: none;
   }
+
+  /* Ensure the styles are also applied on the smallest breakpoint */
+  .blog-page-main-image {
+    height: auto; 
+    object-fit: contain;
+    max-height: 60vh; 
+    width: 100%;
+  }
+  
+  /* Optional: Hide the background image if it interferes */
+  /* 
+  .blog-page-main-image-background {
+      display: none;
+  }
+  */
 }
 
 #w-node-_94d972f1-6efd-c66f-c71d-ae3e773f9039-26d3f8cc {
