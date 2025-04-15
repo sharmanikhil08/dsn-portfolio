@@ -2175,6 +2175,7 @@ blockquote {
   height: 5em;
   display: none;
   position: absolute;
+  pointer-events: none; /* Add this */
 }
 
 .blog-read-circle.shadow-01 {
@@ -2192,6 +2193,7 @@ blockquote {
   display: none;
   position: absolute;
   inset: 0% auto auto 0%;
+  pointer-events: none; /* Add this */
 }
 
 .button-container {

@@ -21,34 +21,26 @@ document.addEventListener('DOMContentLoaded', function () {
     if (titleContainer) { // Check if title container exists and remove its ID
         titleContainer.removeAttribute('data-w-id');
     }
-    // Also remove any inline transform/opacity styles Webflow might have set initially
-    if(readCircle) readCircle.style.transform = ''; 
-    if(readCircle) readCircle.style.opacity = '';
-    if(overlay) overlay.style.opacity = '';
+    // Clear potentially conflicting inline styles immediately
+    if(readCircle) readCircle.style.cssText = ''; 
+    if(overlay) overlay.style.cssText = '';
 
-
-    // --- Initial Styles --- 
-    // We set these directly to ensure consistency, potentially overriding Webflow's inline styles.
-    // This helps prevent conflicts where Webflow might set display:none initially.
-    Object.assign(overlay.style, {
-        opacity: '0',
-        display: 'block', // Keep in layout but invisible
-        transition: 'opacity 0.2s ease-in-out', // Add transition here
-        pointerEvents: 'none'
-    });
-    Object.assign(readCircle.style, {
-        opacity: '0',
-        display: 'flex', // Keep in layout but invisible
-        position: 'absolute',
-        top: '0px', // Position absolutely from top-left
-        left: '0px',
-        pointerEvents: 'none',
-        willChange: 'transform, opacity',
-        transition: 'opacity 0.2s ease-in-out, transform 0.05s linear', // Smooth opacity, quick transform
-        // Set initial transform to center the circle (relative to its own size)
-        transform: 'translate(-50%, -50%)' 
-    });
-    // Ensure container has relative positioning for absolute children
+    // --- Initial Styles (Set using setProperty for !important) --- 
+    overlay.style.setProperty('opacity', '0', 'important');
+    overlay.style.setProperty('display', 'block', 'important'); // Keep in layout but invisible
+    overlay.style.setProperty('transition', 'opacity 0.2s ease-in-out');
+    overlay.style.setProperty('pointer-events', 'none');
+    
+    readCircle.style.setProperty('opacity', '0', 'important');
+    readCircle.style.setProperty('display', 'flex', 'important'); // Keep in layout but invisible
+    readCircle.style.setProperty('position', 'absolute');
+    readCircle.style.setProperty('top', '0px'); 
+    readCircle.style.setProperty('left', '0px');
+    readCircle.style.setProperty('pointer-events', 'none');
+    readCircle.style.setProperty('will-change', 'transform, opacity');
+    readCircle.style.setProperty('transition', 'opacity 0.2s ease-in-out, transform 0.05s linear');
+    readCircle.style.setProperty('transform', 'translate(-50%, -50%)'); 
+    
     if (window.getComputedStyle(imageContainer).position === 'static') {
         imageContainer.style.position = 'relative';
     }
