@@ -3539,9 +3539,8 @@ blockquote {
   flex-flow: column;
   justify-content: space-between;
   align-items: stretch;
-  width: 250px;
+  width: 350px;
   height: 150px;
-  padding-top: 15px;
   padding-bottom: 5px;
   display: flex;
 }
