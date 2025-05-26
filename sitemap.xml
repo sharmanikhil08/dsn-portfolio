@@ -110,4 +110,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/mvp-development-for-startups-using-ai-tools.html</loc>
+    <lastmod>2025-05-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
