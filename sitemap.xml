@@ -84,4 +84,16 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/automating-marketing-campaigns-with-ai-tools.html</loc>
+    <lastmod>2025-05-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/streamlining-e-commerce-operations-with-ai.html</loc>
+    <lastmod>2025-05-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
