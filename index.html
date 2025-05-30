@@ -279,6 +279,44 @@
         ]
       }
     </script>
+    <!-- Calendly Pop-up Widget Start -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <style>
+      .calendly-badge-widget .calendly-badge-content {
+        background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%) !important;
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2) !important;
+        border-radius: 50px !important;
+        padding: 12px 24px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.5px !important;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        transform: translateY(0) !important;
+      }
+      
+      .calendly-badge-widget .calendly-badge-content:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4) !important;
+        background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%) !important;
+      }
+      
+      .calendly-badge-widget .calendly-badge-content:active {
+        transform: translateY(0) scale(0.98) !important;
+        box-shadow: 0 2px 10px rgba(99, 102, 241, 0.3) !important;
+      }
+    </style>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function() {
+        Calendly.initBadgeWidget({
+          url: 'https://calendly.com/digibenders/30min?hide_gdpr_banner=1&background_color=131929&text_color=ffffff&primary_color=6366f1',
+          text: 'Book Your Strategy Call',
+          color: '#6366f1',
+          textColor: '#ffffff',
+          branding: false
+        });
+      });
+    </script>
+    <!-- Calendly Pop-up Widget End -->
   </head>
   <body class="body">
     <div class="noise-background-fixed"></div>
@@ -383,7 +421,11 @@
             data-w-id="638e8a83-a803-4327-3c71-6f1e736c8e46"
             class="nav-menu-mobile"
           >
-            <img src="images/menu-alt-3.svg" loading="lazy" alt="Open Mobile Menu" />
+            <img
+              src="images/menu-alt-3.svg"
+              loading="lazy"
+              alt="Open Mobile Menu"
+            />
           </div>
         </div>
       </div>
@@ -476,7 +518,7 @@
               href="https://calendly.com/digibenders/30min?month=2023-05"
               target="_blank"
               class="hero-button big-nav w-button"
-              >Get Your Free Consultation</a
+              >Book Your Strategy Call</a
             >
             <div class="div-block-1216">
               <div class="social-links nav">
@@ -485,21 +527,33 @@
                   href="https://www.instagram.com/digitalsolutionsninja/"
                   target="_blank"
                   class="fb-c w-inline-block"
-                  ><img src="images/insta.png" loading="lazy" alt="Instagram" class="fb"
+                  ><img
+                    src="images/insta.png"
+                    loading="lazy"
+                    alt="Instagram"
+                    class="fb"
                 /></a>
                 <a
                   data-w-id="d04d1a33-0027-8d40-7ffc-53762252bd20"
                   href="https://www.linkedin.com/in/nikhil-sharma-0008/"
                   target="_blank"
                   class="fb-c w-inline-block"
-                  ><img src="images/in.png" loading="lazy" alt="LinkedIn" class="fb"
+                  ><img
+                    src="images/in.png"
+                    loading="lazy"
+                    alt="LinkedIn"
+                    class="fb"
                 /></a>
                 <a
                   data-w-id="d04d1a33-0027-8d40-7ffc-53762252bd22"
                   href="https://www.facebook.com/profile.php?id=100095201633879"
                   target="_blank"
                   class="fb-c w-inline-block"
-                  ><img src="images/fb.png" loading="lazy" alt="Facebook" class="fb"
+                  ><img
+                    src="images/fb.png"
+                    loading="lazy"
+                    alt="Facebook"
+                    class="fb"
                 /></a>
                 <a
                   data-w-id="d04d1a33-0027-8d40-7ffc-53762252bd24"
@@ -685,7 +739,7 @@
                   "
                   target="_blank"
                   class="hero-button w-button"
-                  >Get Your Free Consultation</a
+                  >Book Your Strategy Call</a
                 >
               </div>
               <div
@@ -732,23 +786,21 @@
           </div>
           <div class="hero-scroll-text-container _1st">
             <div class="hero-scroll-text _1st">
-              App Development * Website Design * SEO * App Development * Website
-              Design * SEO * App Development * Website Design * SEO * App
-              Development * Website Design * SEO * App Development * Website
-              Design * SEO * App Development * Website Design * SEO * App
-              Development * Website Design * SEO * App Development * Website
-              Design * SEO * App Development * Website Design * SEO *
+              AI App Development * Website Design * SEO * AI App Development *
+              Website Design * SEO * AI App Development * Website Design * SEO *
+              AI App Development * Website Design * SEO * AI App Development *
+              Website Design * SEO * AI App Development * Website Design * SEO *
+              AI App Development * Website Design * SEO * AI App Development *
+              Website Design * SEO * AI App Development * Website Design * SEO *
             </div>
           </div>
           <div class="hero-scroll-text-container _2">
             <div class="hero-scroll-text _2th">
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
-              Generative AI * Digital Marketing * Business Automation *
+              AI Agents * Voice AI * Business Automation * AI Agents * Voice AI
+              * Business Automation * AI Agents * Voice AI * Business Automation
+              * AI Agents * Voice AI * Business Automation * AI Agents * Voice
+              AI * Business Automation * AI Agents * Voice AI * Business
+              Automation * AI Agents * Voice AI * Business Automation *
             </div>
           </div>
           <div
@@ -816,6 +868,7 @@
         </div>
       </div>
     </div>
+    <!-- Benefits Section -->
     <div class="section">
       <div
         data-w-id="44729720-2dee-6964-f9ff-968a8d6f3ee3"
@@ -1403,6 +1456,222 @@
         </div>
       </div>
     </div>
+    <!-- Partner With Me Section -->
+    <div class="section">
+      <div class="container w-container">
+        <h2 class="overline-small white">
+          <strong>Why Partner with Me?</strong>
+        </h2>
+        <div class="welcom-container">
+          <div
+            data-delay="4000"
+            data-animation="slide"
+            class="slider w-slider"
+            data-autoplay="false"
+            data-easing="ease-in-out"
+            data-hide-arrows="true"
+            data-disable-swipe="false"
+            data-autoplay-limit="0"
+            data-nav-spacing="3"
+            data-duration="500"
+            data-infinite="true"
+          >
+            <div class="w-slider-mask">
+              <div class="w-slide">
+                <img
+                  src="images/nikhil-sharma-law-firm-marketing.webp"
+                  loading="lazy"
+                  width="107.5"
+                  sizes="107.5px"
+                  alt="Digital Marketing Consulting Law Firms in New Brunswick, Canada"
+                  srcset="
+                    images/nikhil-sharma-law-firm-marketing-p-500.webp   500w,
+                    images/nikhil-sharma-law-firm-marketing-p-800.webp   800w,
+                    images/nikhil-sharma-law-firm-marketing-p-1080.webp 1080w,
+                    images/nikhil-sharma-law-firm-marketing.webp        1600w
+                  "
+                  class="image-6"
+                />
+              </div>
+              <div class="w-slide">
+                <img
+                  src="images/nikhil-sharma-hopscotch-website-design.jpg"
+                  loading="lazy"
+                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
+                  srcset="
+                    images/nikhil-sharma-hopscotch-website-design-p-500.jpg   500w,
+                    images/nikhil-sharma-hopscotch-website-design-p-800.jpg   800w,
+                    images/nikhil-sharma-hopscotch-website-design-p-1080.jpg 1080w,
+                    images/nikhil-sharma-hopscotch-website-design-p-1600.jpg 1600w,
+                    images/nikhil-sharma-hopscotch-website-design-p-2000.jpg 2000w,
+                    images/nikhil-sharma-hopscotch-website-design-p-2600.jpg 2600w,
+                    images/nikhil-sharma-hopscotch-website-design.jpg        2636w
+                  "
+                  alt=""
+                  class="image-6"
+                />
+              </div>
+              <div class="w-slide">
+                <img
+                  src="images/nikhil-sharma-software-developer-consultant.jpg"
+                  loading="lazy"
+                  width="107.5"
+                  sizes="107.5px"
+                  alt=""
+                  srcset="
+                    images/nikhil-sharma-software-developer-consultant-p-500.jpg   500w,
+                    images/nikhil-sharma-software-developer-consultant-p-800.jpg   800w,
+                    images/nikhil-sharma-software-developer-consultant-p-1080.jpg 1080w,
+                    images/nikhil-sharma-software-developer-consultant.jpg        1600w
+                  "
+                  class="image-6"
+                />
+              </div>
+              <div class="w-slide">
+                <img
+                  src="images/nikhil-sharma-buidling-digital-solutions-new-brunswick.jpg"
+                  loading="lazy"
+                  width="215"
+                  alt=""
+                  class="image-6"
+                />
+              </div>
+            </div>
+            <div class="w-slider-arrow-left">
+              <div class="w-icon-slider-left"></div>
+            </div>
+            <div class="w-slider-arrow-right">
+              <div class="w-icon-slider-right"></div>
+            </div>
+            <div class="w-slider-nav w-round"></div>
+          </div>
+          <div
+            id="w-node-_26cb06e7-be16-d273-5b3d-580f820ac4bf-26d3f8cc"
+            data-w-id="26cb06e7-be16-d273-5b3d-580f820ac4bf"
+            class="heading-animation-trigger"
+          >
+            <div class="animation-content-2 inv">
+              <img
+                src="images/nikhil-sharma-law-firm-marketing.webp"
+                loading="lazy"
+                width="336"
+                id="w-node-_802ebe27-25df-6e85-4123-0c6e9c72be6f-26d3f8cc"
+                alt="Digital Marketing Consulting Law Firms in New Brunswick, Canada"
+                srcset="
+                  images/nikhil-sharma-law-firm-marketing-p-500.webp   500w,
+                  images/nikhil-sharma-law-firm-marketing-p-800.webp   800w,
+                  images/nikhil-sharma-law-firm-marketing-p-1080.webp 1080w,
+                  images/nikhil-sharma-law-firm-marketing.webp        1600w
+                "
+                sizes="(max-width: 479px) 100vw, 336px"
+                class="image"
+              /><img
+                src="images/nikhil-sharma-hopscotch-bar-website-design.jpg"
+                loading="lazy"
+                width="218"
+                alt=""
+                class="image-4"
+              /><img
+                src="images/nikhil-sharma-buidling-digital-solutions-new-brunswick.jpg"
+                loading="lazy"
+                width="218"
+                alt=""
+                class="image-4"
+              /><img
+                src="images/nikhil-sharma-software-developer-consultant.jpg"
+                loading="lazy"
+                width="336"
+                id="w-node-_2bc35708-6964-4195-7a68-1985601a3f8d-26d3f8cc"
+                alt=""
+                srcset="
+                  images/nikhil-sharma-software-developer-consultant-p-500.jpg   500w,
+                  images/nikhil-sharma-software-developer-consultant-p-800.jpg   800w,
+                  images/nikhil-sharma-software-developer-consultant-p-1080.jpg 1080w,
+                  images/nikhil-sharma-software-developer-consultant.jpg        1600w
+                "
+                sizes="(max-width: 479px) 100vw, 336px"
+                class="image"
+              />
+            </div>
+          </div>
+          <div
+            data-w-id="26cb06e7-be16-d273-5b3d-580f820ac4c3"
+            class="animation-text-reveal-opacity"
+          >
+            <div class="welcom-text _10 w-richtext">
+              <p class="paragraph">
+                As a seasoned Technology Solutions Architect with over a decade
+                of experience, I am passionate about helping businesses harness
+                the power of AI and custom apps to drive growth and success. My
+                unique approach combines deep technical expertise with a
+                strategic understanding of business goals, ensuring that every
+                solution is tailored to deliver maximum impact.
+              </p>
+              <p class="paragraph">When you work with me, you can expect:</p>
+              <p class="paragraph">
+                1. In-depth consultation to understand your unique challenges
+                and goals<br /><br />
+                2. Strategic planning and solution design to align technology
+                with your business objectives<br /><br />
+                3. Agile development and implementation, keeping you informed
+                and involved every step of the way<br /><br />
+                4. Thorough testing and quality assurance to ensure a flawless
+                launch<br /><br />
+                5. Ongoing support and optimization to keep your solution
+                performing at its best<br /><br />
+              </p>
+            </div>
+            <div class="overlay-animation-text-reveal-opacity"></div>
+          </div>
+        </div>
+        <div class="button-container">
+          <a
+            href="contact.html"
+            data-w-id="77589a40-2b5e-5f0e-1f6d-61e4cd9622b2"
+            class="animated-arrow-button w-inline-block"
+          >
+            <div class="animated-arrow-button-container">
+              <div
+                style="
+                  -webkit-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                "
+                class="arrow-button-text-white"
+              >
+                Contact
+              </div>
+              <div
+                style="
+                  -webkit-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -moz-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  -ms-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                  transform: translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0)
+                    rotateY(0) rotateZ(0) skew(0, 0);
+                "
+                class="button-arrow"
+              >
+                <img
+                  src="images/arrow-button-header-white.svg"
+                  loading="lazy"
+                  alt="arrow header"
+                  class="button-arrow-head"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials Section -->
     <div class="section">
       <div
         data-w-id="a066f558-8d56-f3a9-b93e-045a668151fe"
@@ -3274,8 +3543,8 @@
               <div class="text-md withe">
                 Crafting Next-Gen Solutions for Your Business
               </div>
-              <a href="contact.html" class="button-cta w-button"
-                >Let Me Guide You</a
+              <a href="#booking" class="button-cta w-button"
+                >Book Your Strategy Call</a
               >
             </div>
           </div>
@@ -3283,230 +3552,6 @@
             style="display: block"
             class="animation-image-swipe-reveal-overlay-cta"
           ></div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="container w-container">
-        <h2 class="overline-small white">
-          <strong>Why Partner with Me?</strong>
-        </h2>
-        <div class="welcom-container">
-          <div
-            data-delay="4000"
-            data-animation="slide"
-            class="slider w-slider"
-            data-autoplay="false"
-            data-easing="ease-in-out"
-            data-hide-arrows="true"
-            data-disable-swipe="false"
-            data-autoplay-limit="0"
-            data-nav-spacing="3"
-            data-duration="500"
-            data-infinite="true"
-          >
-            <div class="w-slider-mask">
-              <div class="w-slide">
-                <img
-                  src="images/nikhil-sharma-law-firm-marketing.webp"
-                  loading="lazy"
-                  width="107.5"
-                  sizes="107.5px"
-                  alt="Digital Marketing Consulting Law Firms in New Brunswick, Canada"
-                  srcset="
-                    images/nikhil-sharma-law-firm-marketing-p-500.webp   500w,
-                    images/nikhil-sharma-law-firm-marketing-p-800.webp   800w,
-                    images/nikhil-sharma-law-firm-marketing-p-1080.webp 1080w,
-                    images/nikhil-sharma-law-firm-marketing.webp        1600w
-                  "
-                  class="image-6"
-                />
-              </div>
-              <div class="w-slide">
-                <img
-                  src="images/nikhil-sharma-hopscotch-website-design.jpg"
-                  loading="lazy"
-                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
-                  srcset="
-                    images/nikhil-sharma-hopscotch-website-design-p-500.jpg   500w,
-                    images/nikhil-sharma-hopscotch-website-design-p-800.jpg   800w,
-                    images/nikhil-sharma-hopscotch-website-design-p-1080.jpg 1080w,
-                    images/nikhil-sharma-hopscotch-website-design-p-1600.jpg 1600w,
-                    images/nikhil-sharma-hopscotch-website-design-p-2000.jpg 2000w,
-                    images/nikhil-sharma-hopscotch-website-design-p-2600.jpg 2600w,
-                    images/nikhil-sharma-hopscotch-website-design.jpg        2636w
-                  "
-                  alt=""
-                  class="image-6"
-                />
-              </div>
-              <div class="w-slide">
-                <img
-                  src="images/nikhil-sharma-software-developer-consultant.jpg"
-                  loading="lazy"
-                  width="107.5"
-                  sizes="107.5px"
-                  alt=""
-                  srcset="
-                    images/nikhil-sharma-software-developer-consultant-p-500.jpg   500w,
-                    images/nikhil-sharma-software-developer-consultant-p-800.jpg   800w,
-                    images/nikhil-sharma-software-developer-consultant-p-1080.jpg 1080w,
-                    images/nikhil-sharma-software-developer-consultant.jpg        1600w
-                  "
-                  class="image-6"
-                />
-              </div>
-              <div class="w-slide">
-                <img
-                  src="images/nikhil-sharma-buidling-digital-solutions-new-brunswick.jpg"
-                  loading="lazy"
-                  width="215"
-                  alt=""
-                  class="image-6"
-                />
-              </div>
-            </div>
-            <div class="w-slider-arrow-left">
-              <div class="w-icon-slider-left"></div>
-            </div>
-            <div class="w-slider-arrow-right">
-              <div class="w-icon-slider-right"></div>
-            </div>
-            <div class="w-slider-nav w-round"></div>
-          </div>
-          <div
-            id="w-node-_26cb06e7-be16-d273-5b3d-580f820ac4bf-26d3f8cc"
-            data-w-id="26cb06e7-be16-d273-5b3d-580f820ac4bf"
-            class="heading-animation-trigger"
-          >
-            <div class="animation-content-2 inv">
-              <img
-                src="images/nikhil-sharma-law-firm-marketing.webp"
-                loading="lazy"
-                width="336"
-                id="w-node-_802ebe27-25df-6e85-4123-0c6e9c72be6f-26d3f8cc"
-                alt="Digital Marketing Consulting Law Firms in New Brunswick, Canada"
-                srcset="
-                  images/nikhil-sharma-law-firm-marketing-p-500.webp   500w,
-                  images/nikhil-sharma-law-firm-marketing-p-800.webp   800w,
-                  images/nikhil-sharma-law-firm-marketing-p-1080.webp 1080w,
-                  images/nikhil-sharma-law-firm-marketing.webp        1600w
-                "
-                sizes="(max-width: 479px) 100vw, 336px"
-                class="image"
-              /><img
-                src="images/nikhil-sharma-hopscotch-bar-website-design.jpg"
-                loading="lazy"
-                width="218"
-                alt=""
-                class="image-4"
-              /><img
-                src="images/nikhil-sharma-buidling-digital-solutions-new-brunswick.jpg"
-                loading="lazy"
-                width="218"
-                alt=""
-                class="image-4"
-              /><img
-                src="images/nikhil-sharma-software-developer-consultant.jpg"
-                loading="lazy"
-                width="336"
-                id="w-node-_2bc35708-6964-4195-7a68-1985601a3f8d-26d3f8cc"
-                alt=""
-                srcset="
-                  images/nikhil-sharma-software-developer-consultant-p-500.jpg   500w,
-                  images/nikhil-sharma-software-developer-consultant-p-800.jpg   800w,
-                  images/nikhil-sharma-software-developer-consultant-p-1080.jpg 1080w,
-                  images/nikhil-sharma-software-developer-consultant.jpg        1600w
-                "
-                sizes="(max-width: 479px) 100vw, 336px"
-                class="image"
-              />
-            </div>
-          </div>
-          <div
-            data-w-id="26cb06e7-be16-d273-5b3d-580f820ac4c3"
-            class="animation-text-reveal-opacity"
-          >
-            <div class="welcom-text _10 w-richtext">
-              <p class="paragraph">
-                As a seasoned Technology Solutions Architect with over a decade
-                of experience, I am passionate about helping businesses harness
-                the power of AI and custom apps to drive growth and success. My
-                unique approach combines deep technical expertise with a
-                strategic understanding of business goals, ensuring that every
-                solution is tailored to deliver maximum impact.
-              </p>
-              <p class="paragraph">When you work with me, you can expect:</p>
-              <ol role="list" class="list">
-                <li>
-                  In-depth consultation to understand your unique challenges and
-                  goals
-                </li>
-                <li>
-                  Strategic planning and solution design to align technology
-                  with your business objectives
-                </li>
-                <li>
-                  Agile development and implementation, keeping you informed and
-                  involved every step of the way
-                </li>
-                <li>
-                  Thorough testing and quality assurance to ensure a flawless
-                  launch
-                </li>
-                <li>
-                  Ongoing support and optimization to keep your solution
-                  performing at its best
-                </li>
-              </ol>
-            </div>
-            <div class="overlay-animation-text-reveal-opacity"></div>
-          </div>
-        </div>
-        <div class="button-container">
-          <a
-            href="contact.html"
-            data-w-id="77589a40-2b5e-5f0e-1f6d-61e4cd9622b2"
-            class="animated-arrow-button w-inline-block"
-          >
-            <div class="animated-arrow-button-container">
-              <div
-                style="
-                  -webkit-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -moz-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -ms-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  transform: translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0)
-                    rotateY(0) rotateZ(0) skew(0, 0);
-                "
-                class="arrow-button-text-white"
-              >
-                Contact
-              </div>
-              <div
-                style="
-                  -webkit-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -moz-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -ms-transform: translate3d(0, 110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  transform: translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0)
-                    rotateY(0) rotateZ(0) skew(0, 0);
-                "
-                class="button-arrow"
-              >
-                <img
-                  src="images/arrow-button-header-white.svg"
-                  loading="lazy"
-                  alt="arrow header"
-                  class="button-arrow-head"
-                />
-              </div>
-            </div>
-          </a>
         </div>
       </div>
     </div>
@@ -3877,6 +3922,73 @@
         </div>
       </div>
     </div>
+    <!-- Booking Section -->
+    <div class="section" id="booking">
+      <div class="container w-container" style="max-width: 100%; padding: 0">
+        <div style="width: 100%">
+          <!-- Calendly inline widget -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/digibenders/30min?hide_gdpr_banner=1&background_color=131929&text_color=ffffff&primary_color=6366f1"
+            style="
+              position: relative;
+              width: 100%;
+              height: 750px;
+              text-align: center;
+            "
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+          <!-- Calendly styling -->
+          <style>
+            .calendly-inline-widget {
+              position: relative;
+              min-width: 320px;
+            }
+
+            /* Desktop-specific iframe width */
+            @media screen and (min-width: 1024px) {
+              .calendly-inline-widget iframe {
+                width: 1000px !important;
+              }
+            }
+
+            .calendly-inline-widget iframe {
+              border: none;
+            }
+
+            /* Remove all backgrounds using parent-child relationships */
+            .calendly-inline-widget,
+            .calendly-inline-widget iframe,
+            .calendly-inline-widget iframe * {
+              background: transparent !important;
+            }
+
+            /* Target all elements inside the iframe using a more specific selector */
+            .calendly-inline-widget iframe [style*="background"],
+            .calendly-inline-widget iframe [class*="_"] {
+              background: transparent !important;
+              background-color: transparent !important;
+            }
+
+            /* Ensure text remains visible */
+            .calendly-inline-widget {
+              color: #ffffff;
+            }
+
+            /* Remove any background colors from pseudo-elements */
+            .calendly-inline-widget iframe *::before,
+            .calendly-inline-widget iframe *::after {
+              background: transparent !important;
+              background-color: transparent !important;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
     <div class="section">
       <div class="container w-container">
         <div class="section-header">
@@ -4090,7 +4202,7 @@
                 data-w-id="c5bcecb6-b877-25a2-1daa-4a76ec49b6c1"
                 style="
                   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
                   opacity: 1;
                   transform-style: preserve-3d;
                 "
@@ -5013,7 +5125,7 @@
               data-w-id="c085d703-0f46-0f49-bef0-84bf20eb07a9"
               target="_blank"
               class="hero-button big w-button"
-              >Get Your Free Consultation</a
+              >Book Your Strategy Call</a
             >
             <div class="social-links">
               <a
@@ -5021,21 +5133,33 @@
                 href="https://www.instagram.com/digitalsolutionsninja/"
                 target="_blank"
                 class="fb-c w-inline-block"
-                ><img src="images/insta.png" loading="lazy" alt="Instagram" class="fb"
+                ><img
+                  src="images/insta.png"
+                  loading="lazy"
+                  alt="Instagram"
+                  class="fb"
               /></a>
               <a
                 data-w-id="04bb71cf-7414-55e4-e6cb-55918fbc386d"
                 href="https://www.linkedin.com/in/nikhil-sharma-0008/"
                 target="_blank"
                 class="fb-c w-inline-block"
-                ><img src="images/in.png" loading="lazy" alt="LinkedIn" class="fb"
+                ><img
+                  src="images/in.png"
+                  loading="lazy"
+                  alt="LinkedIn"
+                  class="fb"
               /></a>
               <a
                 data-w-id="fc92c4c9-eb37-9ae3-4a77-c30c8f4142a0"
                 href="https://www.facebook.com/profile.php?id=100095201633879"
                 target="_blank"
                 class="fb-c w-inline-block"
-                ><img src="images/fb.png" loading="lazy" alt="Facebook" class="fb"
+                ><img
+                  src="images/fb.png"
+                  loading="lazy"
+                  alt="Facebook"
+                  class="fb"
               /></a>
               <a
                 data-w-id="adac5310-d520-bd5f-99b5-41d5d451e139"
