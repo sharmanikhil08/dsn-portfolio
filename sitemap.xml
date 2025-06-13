@@ -250,4 +250,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/ai-voice-agents-booking-surrey-bc.html</loc>
+    <lastmod>2025-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
