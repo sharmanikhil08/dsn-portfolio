@@ -628,4 +628,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/mvp-roadmap-agile-strategy-startups-regina.html</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
