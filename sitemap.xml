@@ -775,4 +775,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/burnaby-software-fix-tech-recovery.html</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
