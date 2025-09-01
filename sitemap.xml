@@ -803,4 +803,11 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.digitalsolutionsninja.com/blog/ottawa-ai-insurance-client-automation.html</loc>
+    <lastmod>2025-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset> 
